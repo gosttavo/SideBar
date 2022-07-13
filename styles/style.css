@@ -208,8 +208,8 @@ input[type=search]{
     padding: 2rem;
     display: flex;
     flex-wrap: wrap;
-    gap: .6rem;
     justify-content: space-between;
+    gap: 2rem;
 }
 
 .card{
