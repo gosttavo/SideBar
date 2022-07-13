@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="shortcut icon" href="./assets/logo-white.svg" type="image/x-icon">
+    <title>SideBar</title>
+</head>
+<body>
+
+    <nav id="nav" class="sidebar"> 
+        <header id="nav-header"> 
+            <div class="header-items">
+                <a href="index.html">
+                    <span class="vet-img">
+                        <img src="./assets/logo.svg" alt="logo">
+                    </span>
+                </a>
+
+                <button type="button" class="btn-menu toggle">
+                    <img src="./assets/menu.svg" alt="menu">
+                </button>
+
+            </div>  
+        </header>
+
+        <div id="sidebar-group">
+            <div class="sidebar-items" id="search-item">
+                <a href="#">
+                    <img src="./assets/search.svg" alt="search">
+                </a>
+                
+                <span>
+                    <input type="search" id="search" placeholder="Buscar">
+                </span>
+            </div>
+
+            <a href="#"> 
+
+                <div class="sidebar-items">
+                    <img src="./assets/grid.svg" alt="grid">
+
+                    <span>
+                        Dashboard
+                    </span>
+                </div>
+
+            </a>
+
+            <a href="#">
+                
+                <div class="sidebar-items">
+                    <img src="./assets/pet.svg" alt="pet">
+    
+                    <span>
+                        Pets
+                    </span>
+                </div>
+
+            </a>
+
+            <a href="#">
+                
+                <div class="sidebar-items">
+                    <img src="./assets/user.svg" alt="user">
+
+                    <span>
+                        Clientes
+                    </span>
+                </div>
+
+            </a>
+
+            <a href="#">
+
+                <div class="sidebar-items">
+                    <img src="./assets/vet.svg" alt="vet">
+    
+                    <span>
+                        Vet
+                    </span>
+                </div>
+
+            </a>
+
+            <a href="#">
+                <div class="sidebar-items">
+                    <img src="./assets/settings.svg" alt="settings">
+                    
+                    <span>
+                        Ajustes
+                    </span>
+                </div>
+            </a>
+
+        </div>
+        
+        <footer id="nav-footer">
+            <div class="footer-items">
+                <a href="#">
+                    <div id="user-img">
+                    
+                    </div>
+                </a>
+                
+                <span>
+                    <p id="vet-title">
+                        Eleanor Pena
+                    </p>
+                    <p id="vet-desc">
+                        Veterinária
+                    </p>
+                </span>
+
+                <button type="button" href="#" id="logout-btn" class="btn-menu">
+                    <img src="./assets/log-out.svg" alt="logout">                           
+                </button>
+            </div>
+        </footer>
+    </nav>
+    
+   <main class="container" id="content">
+
+        <p id="title">Dashboard</p>
+
+        <div class="card">
+            <p>Title</p>
+            <p>Subtitle</p>
+        </div>
+
+   </main>
+
+   <script src="scripts/script.js"></script>
+    
+</body>
+</html>
