@@ -111,6 +111,7 @@ span, input, #user-img{
     position: relative;
     margin-left: 5rem;
     height: 100vh;
+    flex-direction: column;
 }
 
 #title{
