@@ -108,10 +108,10 @@ span, input, #user-img{
     background-color: var(--body-bg-color);
     transition: .6s;
     display: flex;
+    flex-direction: column;
     position: relative;
     margin-left: 5rem;
     height: 100vh;
-    flex-direction: column;
 }
 
 #title{
@@ -204,6 +204,14 @@ input[type=search]{
     outline: none;
 }
 
+.cards-section{
+    padding: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: .6rem;
+    justify-content: space-between;
+}
+
 .card{
     background-color: var(--green);
     height: 15rem;
@@ -218,5 +226,7 @@ input[type=search]{
 
 .card:hover{
     transform: scale(1.1);
+    background-color: var(--light-green);
+    box-shadow: 5px 3px 3px var(--green);
     transition: .2s;
 }
