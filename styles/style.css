@@ -213,20 +213,20 @@ input[type=search]{
 }
 
 .card{
-    background-color: var(--green);
-    height: 15rem;
-    width: 15rem;
+    background-color: var(--light-green);
+    height: 18rem;
+    width: 16rem;
     border-radius: .6rem;
-    box-shadow: 5px 3px 3px var(--light-green);
+    box-shadow: 5px 3px 3px var(--green);
 }
 
 .card p{
-    padding: .8rem;
+    padding: 1rem 0 0 1rem;
 }
 
 .card:hover{
-    transform: scale(1.1);
-    background-color: var(--light-green);
+    transform: scale(1);
+    background-color: var(--green);
     box-shadow: 5px 3px 3px var(--green);
     transition: .2s;
 }
