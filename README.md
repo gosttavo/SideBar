@@ -23,7 +23,7 @@
 
 <p>A ideia do desafio é usar os conhecimentos adquiridos de HTML, CSS e Javascript no curso <strong>discover</strong> para criar uma menu lateral que ao clicar em um botão, se expanda</p>
 <p>Esse exercício serviu como uma forma de exercitar o meu aprendizado sobre Javascript e DOM. No início, achei que seria difícil fazer um menu que se expandia como esse, entretanto, não demorou para eu perceber o quão simples é fazer algo assim.</p>
-<p>Disponibilizarei o link do figma quando possível.</p>
+<p>Para acessar o Figma do projeto, clique <a href="https://www.figma.com/file/lLVM8nLc28r0miDYqCHKfg/DD-%2F-Sidebar-Responsiva-(Copy)?node-id=0%3A1">aqui.</a>.</p>
 
 ##
 
